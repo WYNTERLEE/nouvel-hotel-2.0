@@ -1,0 +1,176 @@
+/*global*/
+html {background-color: rgb(255, 250, 241);}
+
+/*nav*/
+.nav-bg {background-color: rgba(220, 225, 230, 40%);}
+
+.nav__menu {color: rgb(63, 61, 61);}
+
+.left-nav-list {background-color: rgba(255, 250, 241, 0.88);}
+
+.right-nav-link {color: rgb(63, 61, 61);}
+
+.left-nav-link {color: rgb(25, 35, 42);}
+
+.languages select{color:rgb(25, 35, 42);}
+
+select:active, select:hover {color: rgb(96, 124, 120);}
+
+.sublist-link {color: rgb(125, 141, 153);}
+
+@media screen and (min-width: 768px) {
+    .left-nav-list {background-color: transparent;}
+
+    .sublist-link {color: rgb(25, 35, 42);}
+}
+
+/*header*/
+.header {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/img_header\ room_phone.png);
+}
+
+.header-logo-title {color: rgb(25, 35, 42);}
+
+.header-btn {
+    border: 1px solid rgb(25, 35, 42);
+    background-color: rgb(25, 35, 42);
+    color: rgb(255, 232, 195);
+}
+
+.header-btn:hover {
+    color: rgb(25, 35, 42) ;
+    background-color: rgb(255, 232, 195);
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        background-image: url(../img/img_header\ room.png);
+    }
+    .header-btn {
+        color: rgb(25, 35, 42);
+        background-color: transparent;
+    }
+    
+    .header-btn:hover {
+        color: rgb(255, 232, 195);
+        background-color: rgb(25, 35, 42);
+    }
+}
+
+/*content*/
+.room {
+    max-width: 1072px;
+    display: flex;
+    justify-content: space-between;
+    margin: 72px auto;
+    height: 478px;
+}
+
+.room-img {
+    width: 100%;
+    height: 350px;
+}
+
+.single-room, .double-room, .deluxe-room {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.single-room, .double-room {margin-right: 8%;}
+
+.room-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(25, 35, 42); 
+    color: rgb(255, 232, 195);
+    font-family: 'Cormorant Garamond', "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+.room-btn:hover{
+    color: rgb(25, 35, 42);
+    background-color: rgb(255, 250, 241);
+    border: 1px solid rgb(25, 35, 42);
+}
+
+/*suites*/
+.suites{
+    background-color: rgb(25, 35, 42);
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suites-block {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 143px;
+    justify-content: center;
+    width: 76.2%;
+    margin: 0 auto 92px;
+}
+
+.suites-img, .deluxe-img {
+    max-width: 62%;
+    height: 349px;
+}
+
+.suites-text-block, .deluxe-text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+    border: 1px solid rgb(255, 232, 195);
+    width: 38%;
+    height: 349px;
+}
+
+.suites-text-block {border-left: none;}
+
+.suites-title{
+    color: rgb(255, 232, 195);
+    font-family: 'Cormorant Garamond', "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-size: 2.4em;
+}
+
+.suites-content{
+    color:rgb(255, 250, 241);
+    text-align: center;
+    line-height: 1.4;
+    width: 78%;
+    font-size: 1.6em;
+    font-family: 'Cormorant Garamond', "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.deluxe-text-block{border-right: none;}
+
+.suites-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: rgb(255, 232, 195);
+    background-color: transparent;
+    width: 170px;
+    height: 50px;
+    border: 1px solid rgb(255, 232, 195);
+    margin-top: 30px;
+}
+
+.suites-btn:hover{
+    background-color: rgb(255, 232, 195);
+    color: rgb(25, 35, 42);
+}
+
+/*footer*/
+.footer {background-image: url(../img/img_footer\ room.png);}
